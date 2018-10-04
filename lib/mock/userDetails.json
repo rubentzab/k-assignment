@@ -1,0 +1,10 @@
+{
+	"userDetails": {
+		"status": "active"
+	},
+	"userInfo": {
+		"firstname": "Balasubramanian",
+		"lastname": "Karthikesan",
+		"gender": "Male"
+	}
+}

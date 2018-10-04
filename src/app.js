@@ -1,9 +1,9 @@
 import Backbone	from 'backbone';
-import userInfo from './views/userInfo';
+import userDashboard from './views/userDashboard';
 import './scss/main.scss';
 
-const userInfoView = new userInfo({
-	el: '#userInfo',
-	model: new Backbone.Model(require('../lib/mock/userInfo.json'))
+const userDashboardView = new userDashboard({
+	el: '#user-details',
+	model: new Backbone.Model(require('../lib/mock/userDetails.json'))
 });
-userInfoView.render();
+userDashboardView.render();
