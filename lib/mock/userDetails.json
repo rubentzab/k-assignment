@@ -3,8 +3,11 @@
 		"status": "active"
 	},
 	"userInfo": {
-		"firstname": "Balasubramanian",
-		"lastname": "Karthikesan",
-		"gender": "Male"
+		"firstname": "Ruben",
+		"lastname": "Tzab",
+		"gender": "Male",
+		"age": "31",
+		"bio": "Born and raised in Motul city, loves pizza, good movies and coding",
+		"avatar": "user.svg"
 	}
-}
+}	

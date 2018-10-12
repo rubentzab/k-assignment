@@ -1,3 +1,10 @@
-<p>First Name - {{userInfo.firstname}}</p>
-<p>LastName - {{userInfo.lastname}}</p>
-<p>Gender - {{userInfo.gender}}</p>
+<p class="full_name"> <span class="first-name">{{userInfo.firstname}}</span> <span class="last-name">{{userInfo.lastname}}</span></p>
+<hr>
+<p class="age-gender">
+    <span class="age">{{userInfo.age}}</span>y. <span class="gender">{{userInfo.gender}}</span>
+</p>
+<p class="bio-wrapper">
+    <span class="bio">
+        {{userInfo.bio}}
+    </span>
+</p>

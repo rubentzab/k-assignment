@@ -1,3 +1,73 @@
-p {
-	
+$shadow-color: #737373;
+$active-color:#70f56c;
+$inactive_color: gray;
+$light-gray: #f0f0f0;
+
+body{
+	margin:0px;
+	background: $light-gray;
+}
+
+div#top-bg{
+	background-color: rgb(105, 112, 175);
+	background: linear-gradient(to bottom, rgba(73,189,147,1) 0%, rgba(73,189,147,1) 0%, rgba(193,151,222,1) 100%);
+	min-height: 200px;
+	box-shadow: inset 0px -1px 10px $shadow-color;
+
+	div.avatar-wrapper{
+		img.avatar{
+			border-radius: 50%;
+			width: 120px;
+			height: 120px;
+			box-shadow: $shadow-color 0px 1px 30px;
+			display: block;
+			margin: auto;
+			top: 130px;
+			position: relative;
+		}
+
+	}
+}
+div#status-wrapper{
+	margin: auto;
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 130px;
+	.status_icon{
+		border-radius: 50%;
+		width: 10px;
+		height: 10px;
+		display: inline-block;
+		box-shadow: $shadow-color 1px 1px 2px;
+		&.active{
+			background:$active-color;
+		}
+		&.inactive{
+			background:$inactive_color;
+		}
+	}
+	.status{
+		font-size: smaller;
+		text-shadow: $shadow-color 1px 1px 2px;
+		text-transform: capitalize;
+		&.active{
+			color: $active-color;
+		}
+		&.inactive{
+			color:$inactive_color;
+		}
+	}
+}
+
+div#bottom-info{
+	width: 70%;
+    background: #fff;
+    top: 80px;
+    position: relative;
+    display: block;
+    margin: auto;
+    padding: 1em;
+    box-shadow: $shadow-color 0px 2px 30px;
+    border-radius: 4px;
 }
